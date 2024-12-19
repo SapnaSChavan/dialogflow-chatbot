@@ -17,7 +17,9 @@ The project uses Flask as the web framework to host the webhook and supports tes
 ## Project Structure
 
 dialogflow-chatbot/
+
 ├── app.py                # Webhook version with hardcoded conversion rates
+
 ├── app_realtimeAPI.py    # Webhook version using Currency Conversion API for real-time data
 ├── requirements.txt      # Python dependencies
 ├── .gitignore            # Files to exclude from version control
